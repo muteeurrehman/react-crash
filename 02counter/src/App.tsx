@@ -23,10 +23,7 @@ function App() {
 		<>
 			<h1>Counter App (0 - 20)</h1>
 			<button onClick={increment}>+</button>
-			<span style={{ width: "50" }}>
-				<strong>{count}</strong>
-			</span>
-
+			<strong>{count}</strong>
 			<button onClick={decrement}>-</button>
 		</>
 	);
